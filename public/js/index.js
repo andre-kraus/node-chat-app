@@ -28,7 +28,7 @@ socket.on('newLocationMessage', function (message) {
         createdAt: formattedTime
     });
     jQuery('#messages').append(html);
-}
+});
 jQuery('#message-form').on('submit', function (e) {
     e.preventDefault();
 
